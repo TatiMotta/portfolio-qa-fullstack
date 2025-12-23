@@ -1,0 +1,6 @@
+// test-data/users.json
+{
+  "validUser": { "email": "qa@taskhub.com", "password": "Senha@123" },
+  "invalidUser": { "email": "qa@taskhub.com", "password": "errada" },
+  "nonExistingUser": { "email": "naoexiste@taskhub.com", "password": "Senha@123" }
+}
