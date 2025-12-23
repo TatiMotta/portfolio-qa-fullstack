@@ -1,0 +1,11 @@
+// test-data/tasks.json
+{
+  "valid": ["Comprar pão", "Pagar boleto", "Estudar Playwright"],
+  "boundary": {
+    "minOk": "abc",
+    "minNok": "ab",
+    "maxOk": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "maxNok": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  "invalid": ["", "  ", null]
+}
